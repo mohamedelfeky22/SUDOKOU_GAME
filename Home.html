@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="Homestyle.css" type="text/css" />
+</head>
+<body>
+  <h1>Sudoku Game</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col  lg-4">
+        <form>
+          <label class="playername">PlayerName:</label>
+          <input type="text" name="playerName">
+          <input type="button" name="let's play" value="let's Play" class="play" id="playBtn">
+          <input type="button" name="how to play" value="How To Play" class="play" id="myBtn">
+        </form>
+      </div>
+      <div class="col lg-8">
+        <img src="./images/gamecover.PNG">
+      </div>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>How to play</h2>
+      <p>
+        1- click start to begin the game<br>
+        2-move throw grid using arrow buttons and select image by
+        numbers.<br>
+        3- click ckeck to know if you win or lose<br>
+
+      </p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<head>
+  <link rel="stylesheet" href="Gamestyle.css" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col  lg-3">
+        <div id="lastscore"> </div>
+        <div><span id="player"><span></div>
+        <div><span>Timer>>>></span><span>1</span><span>:</span><span>59</span></div>
+        <div><input type="button" name="start" value="Start" class="play" id="startBtn" /></div>
+        <div><input type="button" name="check" value="check" class="play" id="checkBtn" /></div>
+        <div><input type="button" name="cancel" value="cancel" class="play" id="cancelBtn" /></div>
+      </div>
+      <div class="col lg-10">
+        <div class="icons">
+          <div class="images">
+            <img src="./images/1.png" />
+            <p>(1)</p>
+          </div>
+          <div class="images">
+            <img src="./images/2.png" />
+            <p>(2)</p>
+          </div>
+          <div class="images">
+            <img src="./images/3.png" />
+            <p>(3)</p>
+          </div>
+          <div class="images">
+            <img src="./images/4.png" />
+            <p>(4)</p>
+          </div>
+        </div>
+        <!--end of img div-->
+        <div class="row">
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+        </div>
+        <div class="row">
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+        </div>
+        <div class="row">
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+        </div>
+        <div class="row">
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+        </div>
+      </div>
+      <!--end of gird-->
+    </div>
+  </div>
+  </div>
+  <!--cancel pop up-->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="yesno"><a href="Home.html"><input type="button" name="start" value="Yes" class="yesno"
+            id="yesBtn" /></a></div>
+      <div class="yesno"><input type="button" name="start" value="No" class="yesno" id="noBtn" /></div>
+    </div>
+  </div>
+  <!--win popup-->
+  <div id="myModalw" class="modal">
+    <div class="modal-content">
+      <h1>You Win</h1>
+      <input type="button" value="Home page" class="yesno" id="hwBtn" />
+      <input type="button" value="Play again" class="yesno" id="agBtnw" />
+    </div>
+  </div>
+  <!--lose popup-->
+  <div id="myModall" class="modal">
+    <div class="modal-content">
+      <h1>You Lose</h1>
+      <input type="button" value="Home page" class="yesno" id="hlBtn" />
+      <input type="button" value="Play again" class="yesno" id="agBtn" />
+    </div>
+
+  </div>
+</body>
+<script src="gmain.js"></script>
+
+
+</html>
